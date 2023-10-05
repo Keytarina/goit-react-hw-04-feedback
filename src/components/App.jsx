@@ -34,7 +34,7 @@ export const App = () => {
   } 
 
   const total = countTotalFeedback();
-  const options = [ good, neutral, bad ];
+  const options = [ 'good', 'neutral', 'bad' ];
 
   return (
     <div className='app'>
